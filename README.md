@@ -1,6 +1,6 @@
 # NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria
 
-This repository contains the implementation and experiments code for the paper "NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria".
+This repository contains the implementation and experiments code for the paper "NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria", published in Transactions on Machine Learning Research (2026).
 
 ## Environments
 
