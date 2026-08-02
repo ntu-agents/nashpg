@@ -1,4 +1,4 @@
-# NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria
+# [NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria](https://arxiv.org/abs/2510.18183)
 
 This repository contains the implementation and experiments code for the paper "NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria", published in Transactions on Machine Learning Research (2026).
 
@@ -143,13 +143,11 @@ nash_policy_gradient/
 If you find this repository useful, please cite our paper:
 
 ```bibtex
-@misc{yu2026nashpgpolicygradientmethod,
-      title={NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria}, 
-      author={Eason Yu and Tzu Hao Liu and Clément L. Canonne and Yunke Wang and Chang Xu and Nguyen H. Tran and Stefano V. Albrecht},
+@article{yu2026nashpg,
+      title={{NashPG}: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria},
+      author={Eason Yu and Tzu Hao Liu and Cl{\'e}ment L. Canonne and Yunke Wang and Chang Xu and Nguyen H. Tran and Stefano V. Albrecht},
+      journal={Transactions on Machine Learning Research},
       year={2026},
-      eprint={2510.18183},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2510.18183}, 
+      url={https://openreview.net/forum?id=yIA2Fjs1FK},
 }
 ```
