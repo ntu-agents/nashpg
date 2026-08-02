@@ -1,0 +1,13 @@
+defaults:
+  - agent: kuhn_poker
+  - env: kuhn_poker
+  - algorithm: mmd
+  - logging: both
+  - _self_
+
+hydra:
+  searchpath:
+    - file://conf/
+
+run_name: "kuhn_poker/mmd/default_run"
+seed: 100

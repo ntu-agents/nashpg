@@ -1,0 +1,13 @@
+defaults:
+  - agent: kuhn_poker
+  - env: kuhn_poker
+  - algorithm: psro
+  - logging: both
+  - _self_
+
+hydra:
+  searchpath:
+    - file://conf/
+
+run_name: "kuhn_poker/psro/default_run"
+seed: 100

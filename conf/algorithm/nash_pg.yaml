@@ -1,0 +1,14 @@
+lr: 3e-4
+ent_coef: 0.05
+clip_eps: 0.2
+num_envs: 32
+num_steps: 128
+gamma: 1.0
+gae_gamma: 0.95
+num_minibatches: 4
+num_ppo_epoch: 4
+mag_coef: 0.2
+mag_divergence_type: "kl"
+max_grad_norm: 0.5
+num_inner_update: 1000
+num_outer_update: 50

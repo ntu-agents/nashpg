@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+.venv
+.pytest_cache
+.env
+uv.lock
+
+# experiment results
+runs/
+outputs/
+logs/
+data/
+checkpoints/

@@ -1,0 +1,13 @@
+defaults:
+  - agent: kuhn_poker
+  - env: kuhn_poker
+  - algorithm: rnad
+  - logging: tensorboard
+  - _self_
+
+hydra:
+  searchpath:
+    - file://conf/
+
+run_name: "kuhn_poker/rnad/default_run"
+seed: 100

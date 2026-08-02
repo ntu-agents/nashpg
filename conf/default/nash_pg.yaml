@@ -1,0 +1,13 @@
+defaults:
+  - agent: kuhn_poker
+  - env: kuhn_poker
+  - algorithm: nash_pg
+  - logging: both
+  - _self_
+
+hydra:
+  searchpath:
+    - file://conf/
+
+run_name: "kuhn_poker/nash_pg/default_run"
+seed: 100
